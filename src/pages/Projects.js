@@ -24,7 +24,7 @@ function Projects() {
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
-                <img className="brewser" src="../images/brewser.png" alt="Project"/>
+                <img className="brewser" src="../images/Brewser.png" alt="Project"/>
             </div>
             <div className="project2">
                 <img className="whenInRoam" src="../images/when_in_roam.png" alt="Project"/>
