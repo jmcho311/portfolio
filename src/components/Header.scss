@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+header {
+    background-color: #F2ECE9;
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+    padding-left: 20px;
+    font-family: Julius Sans One;
+    font-size: 26px;
+}
+
+.links {
+    font-family: Julius Sans One;
+    font-size: 20px;
+    float: right;
+    padding: 0px 20px;
+}
+
+a {
+    color: black;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    
+    &:hover {
+        color: darken(#fff, 20%);
+        transform: scale(1.5);
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        height: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .links {
+        font-size: 14px;
+        padding: 3px 0 0 0;
+    }
+}
+
+// @media screen and (max-width: 360px) {
+//     header {
+//         width: 100%;
+//     }
+// }
+
+// @media screen and (max-width: 320px) {
+//     header {
+//         width: 100%;
+//     }
+// }

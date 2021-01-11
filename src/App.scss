@@ -1,0 +1,944 @@
+// ================== Universal Styling ==================
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lora&family=Raleway:wght@200&display=swap');
+
+.App {
+    text-align: center;
+    }
+
+.page {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+body {
+    position: relative;
+    background-color: white;
+}
+
+h1 {
+    font-family: Julius Sans One;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: Playfair;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #696055;
+}   
+
+h5 {
+    font-size: 18px;
+    font-family: Raleway;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #696055;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    font-family: Raleway;
+    font-size: 18px;
+    color: #8F8374;
+}
+
+// ================== Home.js ==================
+.homePage {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-image: url("./pages/images/lightbulb.jpg");
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 65vh;
+    opacity: 0.75;
+    margin-top: 120px;
+    margin-left: 5vw;
+
+    h1 {
+        padding-left: 0;
+    }
+
+    p {
+        color: black;
+    }
+}
+
+.container {
+    background-color: #F2ECE9;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    width: 45vw;
+    padding: 1vh 2vw 2vh 3vw;
+    opacity: 0.65;
+}
+
+p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .homePage {
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homePage {
+        background-image: url("./pages/images/lightbulb685.jpg");
+        margin-top: 115px;
+        margin-bottom: 50px;
+        height: 100%;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .container {
+        background-color: white;
+        width: 45vw;
+    }
+
+    h1 {
+        padding-top: 0;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .homePage {
+        background-image: url("./pages/images/lightbulb365.jpg");
+        margin-top: 100px;
+        margin-bottom: 50px;
+        height: 100%;
+        width: 64.5vw;
+        margin-left: 19vw;
+    }
+
+    .container {
+        background-color: white;
+        width: 60vw;
+    }
+
+    h1 {
+        padding-top: 0;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-top: 282px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .homePage {
+        background-image: url("./pages/images/lightbulb365.jpg");
+        margin-top: 70px;
+        margin-bottom: 50px;
+        height: 100%;
+        width: 90vw;
+        margin-left: 6vw;
+    }
+
+    .container {
+        background-color: white;
+        width: 85vw;
+    }
+
+    h1 {
+        padding-top: 0;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-top: 282px;
+    }
+
+    p {
+        font-size: 18px;
+        padding-right: 17px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .homePage {
+        background-image: url("./pages/images/lightbulb260.jpg");
+        width: 69vw;
+        margin-left: 16vw;
+    }
+
+    .container {
+        width: 67vw;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-top: 175px;
+    }
+
+    p {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .homePage {
+        width: 72vw;
+        margin-left: 15vw;
+    }
+
+    .container {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .homePage {
+        width: 90vw;
+        margin-left: 10vw;
+    }
+    
+    .container {
+        width: 79vw;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .homePage {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .container {
+        width: 90vw;
+    }
+}
+
+// ================== About.js ==================
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.psqlIcon {
+    width: 40px;
+    height: 41.266px;
+}
+
+.sequelizeIcon {
+    width: 96px;
+    height: 40.078px;
+}
+
+.iconLabel {
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: #696055;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    li {
+    list-style-type: none;
+    padding: 0px 10px;
+    }
+}
+.aboutPage {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.aboutContainer {
+    background-image: url("./pages/images/screen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;    
+    opacity: 0.75;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.aboutContent {
+    width: 438.906px;
+    height: 270px;
+    padding-top: 339.040px;
+    padding-right: 32vw;
+    padding-left: 37.5vw;
+    
+    h3, h4, p, #synonyms {
+        color: black;
+    }
+}
+
+h4 {
+    font-family: Playfair;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}   
+
+#synonyms {
+    font-style: oblique;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.skillsContainer {
+    width: 100vw;
+    height: 25vh;
+
+    h1 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 35vw;
+        margin-right: 35vw;
+        border-bottom: 1px solid black;
+        padding: 0 0 4px;
+    }
+}
+
+.techIcons {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutPage h1 {
+        margin-bottom: 0;
+    }
+
+    .aboutContent {
+        width: 438.906px;
+        height: 270px;
+        padding-top: 339.040px;
+        padding-right: 26vw;
+        padding-left: 31.5vw;
+    }
+
+    .skillsContainer h1 {
+        margin-top: 15px;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutPage {
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .aboutPage h1 {
+        margin-bottom: 1.5vh;
+    }
+
+    .aboutContainer {
+        height: 100vh;
+    }
+
+    .aboutContent {
+        width: 438.906px;
+        height: 270px;
+        padding-top: 339.040px;
+        padding-right: 19vw;
+        padding-left: 25.5vw;
+    }
+
+    .skillsContainer {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .aboutPage {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        height: 100%;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .aboutPage h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .aboutContainer {
+        background-image: none;
+        background-color: #F2F2F2;
+        width: 90vw;
+        height: 280px;
+        align-content: flex-start;
+    }
+
+    .aboutContent {
+        width: 90vw;
+        height: 100%;
+        padding: 10px;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .skillsContainer {
+        width: 90vw;
+        height: 540px;
+        margin-bottom: 50px;
+    }
+
+    .skillsContainer h1 {
+        margin: 0;
+        text-align: center;
+        border-bottom: 0px;
+    }
+
+    .techIcons {
+        margin-top: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .aboutPage h1 {
+        padding-top: 0;
+    }
+
+    .aboutContainer {
+        height: 340px;
+    }
+
+    .skillsContainer {
+        height: 550px;
+    }
+
+    .skillsContainer h1 {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .aboutContainer {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .aboutPage {
+        margin-left: 6vw;
+    }
+
+    .aboutContainer {
+        height: 375px;
+    }
+}
+
+// ================== Projects.js ==================
+.projectsPage {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.projectLink {
+    font-size: 30px;
+    color: #696055;
+    transition: color 0.3s ease;
+    
+    &:hover {
+        color: white;
+        transform: scale(1.5);
+        }
+}
+
+.dishd {
+    width: 55vw;
+}
+
+.project4 {
+    background-color: #DDCCBE;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 40px 90px 80px 50px;
+    margin: 40px;
+}
+
+.p4details {
+    background-color: #F3ECE9;
+    width: 300px;
+    height: 310px;
+    margin-top: 6vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.brewser {
+    width: 60vw;
+}
+
+.project3 {
+    background-color: #F2EEEB;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.p3details {
+    background-color: #D9D9D9;
+    width: 260px;
+    height: 350px;
+    margin-top: 15vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.whenInRoam {
+    width: 50vw;
+    height: 400px;
+    padding-top: 5vh;
+}
+
+.project2 {
+    background-color: #858585;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 60px 90px 40px 50px;
+    width: 80vw;
+    margin: 40px;
+}
+
+.p2details {
+    background-color: #F3ECE9;
+    width: 280px;
+    height: 285px;
+    margin-top: 12vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.concentration {
+    width: 40vw;
+}
+
+.project1 {
+    background-color: #BFA48C;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 50px 90px 50px 50px;
+}
+
+.p1details {
+    background-color: #F2F2F2;
+    width: 350px;
+    height: 265px;
+    margin-top: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .projectsPage {
+        margin-top: 90px;
+    }
+
+    .project4, .project1 {
+        margin: 20px 0 20px 0;
+        padding: 0;
+    }
+
+    .project3, .project2 {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .dishd {
+        width: 60vw;
+        margin-left: 5vw;
+        margin-top: 3vh;
+    }
+
+    .p4details {
+        width: 36vw;
+        height: 19vh;
+        margin-top: 0;
+        margin-left: 48vw;
+        margin-bottom: 3vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .p3details {
+        width: 325px;
+        height: 305px;
+        margin-top: 3vh;
+        margin-right: 5vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .brewser {
+        width: 65vw;
+        margin-right: 20vw;
+        margin-bottom: 3vh;
+    }
+
+    .project2 {
+        width: 94.5vw;
+    }
+
+    .whenInRoam {
+        width: 70vw;
+        height: auto;
+        padding-top: 3vh;
+        margin-left: 4vw;
+    }
+
+    .p2details {
+        width: 280px;
+        height: 285px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 0;
+        margin-bottom: 3vh;
+        margin-left: 56vw;
+    }
+
+    .p1details {
+        width: 35vw;
+        height: 265px;
+        margin-top: 9vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .concentration {
+        width: 40vw;
+        margin: 3vh 5vw 3vh 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projectsPage {
+        margin-top: 90px;
+    }
+
+    .project4, .project1 {
+        margin: 20px 0 20px 0;
+        padding: 0;
+    }
+
+    .project3, .project2 {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .dishd {
+        width: 60vw;
+        margin-left: 5vw;
+        margin-top: 3vh;
+    }
+
+    .p4details {
+        width: 36vw;
+        height: 26vh;
+        margin-top: 0;
+        margin-left: 48vw;
+        margin-bottom: 3vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .p3details {
+        width: 325px;
+        height: 270px;
+        margin-top: 3vh;
+        margin-right: 5vw;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .brewser {
+        width: 65vw;
+        margin-right: 20vw;
+        margin-bottom: 3vh;
+    }
+
+    .project2 {
+        width: 94.5vw;
+    }
+
+    .whenInRoam {
+        width: 70vw;
+        height: auto;
+        padding-top: 3vh;
+        margin-left: 4vw;
+    }
+
+    .p2details {
+        width: 280px;
+        height: 245px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 0;
+        margin-bottom: 3vh;
+        margin-left: 45vw;
+    }
+
+    .p1details {
+        width: 35vw;
+        height: 245px;
+        margin-top: 9vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .concentration {
+        width: 40vw;
+        margin: 3vh 5vw 3vh 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .projectsPage {
+        width: 100%;
+        margin-top: 90px;
+        margin-bottom: 80px
+    }
+
+    .projectsPage h1 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .project4, .project3, .project1 {
+        margin: 15px;
+        padding: 10px;
+    }
+    
+    .project2 {
+        margin: 15px 18px 15px 18px;
+        padding: 10px;
+        width: 90vw;
+    }
+    
+    .dishd, .brewser, .concentration {
+        width: 90vw;
+        margin: 0;
+    }
+    
+    .p4details, .p3details, .p2details, .p1details {
+        margin: 0;
+    }
+    .p4details {
+        width: 84.5vw;
+        height: 185px;
+    }
+    
+    .p4details h3, .p3details h3, .p2details h3, .p1details h3 {
+        padding-top: 5px;
+        font-size: 18px;
+    }
+    
+    .p4details h5, .p3details h5, .p2details h5, .p1details h5 {
+        font-size: 14px;
+    }
+    
+    .p4details p, .p3details p, .p2details p, .p1details p {
+        font-size: 14px;
+    }
+    
+    .p3details {
+        width: 84.5vw;
+        height: 170px;
+    }
+
+    .whenInRoam {
+        width: 90vw;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .p2details {
+        width: 90vw;
+        height: 175px;
+    }
+
+    .p1details {
+        width: 84.5vw;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .projectsPage {
+        margin-top: 70px;
+    }
+
+    .project2 {
+        margin: 15px 30px 15px 30px;
+        width: 80vw;
+    }
+    
+    .dishd, .brewser, .concentration {
+        width: 88vw;
+    }
+
+    .p4details {
+        width: 333px;
+        height: 210px;
+    }
+    
+    .p3details {
+        width: 333px;
+        height: 225px;
+    }
+
+    .whenInRoam {
+        width: 80vw;
+    }
+
+    .p2details {
+        width: 301px;
+        height: 210px;
+    }
+
+    .p1details {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .project2 {
+        margin: 15px 26.5px 15px 26.5px;
+    }
+    
+    .dishd, .brewser {
+        width: 86vw;
+    }
+    
+    .concentration {
+        width: 86.75vw;
+    }
+    
+    .p3details {
+        width: 292px;
+    }
+
+    .p2details, .p1details {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .dishd, .brewser, .concentration {
+        width: 86vw;
+    }
+    
+    .p4details {
+        height: 225px;
+    }
+    
+    .p3details {
+        width: 280px;
+        height: 245px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .project2 {
+        width: 82vw;
+        margin: 15px 21px 15px 21px;
+    }
+    
+    .dishd {
+        width: 84vw;
+    }
+
+    .brewser, .concentration {
+        width: 84.5vw;
+    }
+    
+    .p4details {
+        height: 250px;
+    }
+    
+    .p3details {
+        height: 285px;
+    }
+
+    .whenInRoam {
+        width: 82vw;
+    }
+
+    .p2details, .p1details {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .project4, .project3, .project2, .project1 {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .dishd, .brewser, .concentration {
+        width: 82vw;
+    }
+}
