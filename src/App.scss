@@ -51,7 +51,7 @@ p {
     color: #8F8374;
 }
 
-// ================== Home.js ==================
+// ================================================ Home.js ================================================
 .homePage {
     background-image: url("./pages/images/lightbulb.jpg");
     background-repeat: no-repeat;
@@ -354,7 +354,7 @@ p {
     }
 }
 
-// ================== About.js ==================
+// ================================================ About.js ================================================
 
 .aboutPage {
     margin-top: 90px;
@@ -646,6 +646,22 @@ ul {
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .aboutPage {
+        height: 190vh;
+    }
+
+    .aboutContainer {
+        height: 130vh;
+    }
+
+    .aboutContent {
+        padding-top: 42vh;
+        padding-right: 33vw;
+        padding-left: 37vw;
+    }
+}
+
 @media screen and (max-width: 1380px) {
     .aboutContent {
         padding-top: 33vh;
@@ -802,7 +818,7 @@ ul {
     }
 }
 
-// ================== Projects.js ==================
+// ================================================ Projects.js ================================================
 .projectsPage {
     margin-top: 80px;
     margin-bottom: 100px;
