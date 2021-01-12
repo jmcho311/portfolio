@@ -454,7 +454,7 @@ ul {
 
 @media screen and (max-width: 2900px) {
     .aboutPage {
-        height: 145vh;
+        height: 185vh;
         
         h1 {
             padding-top: 4vh;
@@ -465,11 +465,11 @@ ul {
 
     .aboutContainer {
         background-image: url("./pages/images/screen1280.jpg");
-        height: 100vh;
+        height: 130vh;
     }
     
     .aboutContent {
-        padding-top: 24vh;
+        padding-top: 33vh;
         padding-right: 38vw;
         padding-left: 41vw;
         
@@ -511,8 +511,12 @@ ul {
 }
 
 @media screen and (max-width: 2560px) {
+    .aboutContainer {
+        height: 135vh;
+    }
+    
     .aboutContent {
-        padding-top: 26vh;
+        padding-top: 35vh;
         padding-right: 36vw;
         padding-left: 40vw;
     }
@@ -520,7 +524,7 @@ ul {
 
 @media screen and (max-width: 1920px) {
     .aboutPage {
-        height: 185vh;
+        height: 225vh;
 
         h1 {
             padding-top: 3vh;
@@ -529,11 +533,11 @@ ul {
     }
 
     .aboutContainer {
-        height: 135vh;
+        height: 170vh;
     }
     
     .aboutContent {
-        padding-top: 35vh;
+        padding-top: 45vh;
         padding-right: 33vw;
         padding-left: 37.5vw;
         
@@ -656,7 +660,7 @@ ul {
     }
 
     .aboutContent {
-        padding-top: 42vh;
+        padding-top: 45vh;
         padding-right: 33vw;
         padding-left: 37vw;
     }
