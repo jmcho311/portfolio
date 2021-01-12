@@ -40,6 +40,94 @@ li {
     list-style-type: none;
 }
 
+@media screen and (max-width: 2900px) {
+    header {
+        height: 100px;
+    }
+    
+    .logo {
+        padding-left: 3vw;
+        font-size: 65px;
+    }
+
+    .links {
+        font-size: 50px;
+        padding: 0.5vh 3vw;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    header {
+        height: 70px;
+    }
+    
+    .logo {
+        padding-left: 3vw;
+        font-size: 45px;
+    }
+
+    .links {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    header {
+        height: 50px;
+    }
+    
+    .logo {
+        padding-left: 30px;
+        font-size: 35px;
+    }
+
+    .links {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: #F2ECE9;
+        padding-top: 25px;
+        position: fixed;
+        width: 100%;
+        height: 45px;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+    }
+    
+    .logo {
+        float: left;
+        padding-left: 20px;
+        font-family: Julius Sans One;
+        font-size: 26px;
+    }
+    
+    .links {
+        font-family: Julius Sans One;
+        font-size: 20px;
+        float: right;
+        padding: 0px 20px;
+    }
+    
+    a {
+        color: black;
+        transition: color 0.3s ease;
+        text-decoration: none;
+        
+        &:hover {
+            color: darken(#fff, 20%);
+            transform: scale(1.5);
+        }
+    }
+    
+    li {
+        list-style-type: none;
+    }
+}
+
 @media screen and (max-width: 414px) {
     header {
         height: 20px;
@@ -56,15 +144,3 @@ li {
         padding: 3px 0 0 0;
     }
 }
-
-// @media screen and (max-width: 360px) {
-//     header {
-//         width: 100%;
-//     }
-// }
-
-// @media screen and (max-width: 320px) {
-//     header {
-//         width: 100%;
-//     }
-// }
