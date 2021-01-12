@@ -180,27 +180,20 @@ p {
     
         h1 {
             padding-left: 0;
-            // font-family: Julius Sans One;
             font-size: 36px;
             font-weight: 300;
             text-align: left;
-            // padding-top: 10px;
-            // padding-left: 50px;
         }
 
         h2 {
-            // font-family: Raleway;
             font-size: 24px;
         }
     
         p {
             color: black;
-            // font-size: 16px;
             text-align: left;
             margin-top: 10px;
-            // font-family: Raleway;
             font-size: 18px;
-            // color: #8F8374;
         }
     }
     
@@ -285,7 +278,6 @@ p {
 
 @media screen and (max-width: 414px) {
     .homePage {
-        // background-image: url("./pages/images/lightbulb365.jpg");
         margin-top: 70px;
         width: 90vw;
         margin-left: 6vw;
@@ -295,17 +287,7 @@ p {
         width: 85vw;
     }
 
-    // h1 {
-    //     font-size: 30px;
-    // }
-
-    // h2 {
-    //     font-size: 20px;
-    //     padding-top: 282px;
-    // }
-
     p {
-        // font-size: 18px;
         padding-right: 17px;
     }
 }
@@ -322,7 +304,6 @@ p {
         }
     
         h2 {
-            // font-size: 20px;
             padding-top: 175px;
         }
     
@@ -374,48 +355,22 @@ p {
 }
 
 // ================== About.js ==================
-.icon {
-    width: 50px;
-    height: 50px;
-}
 
-.psqlIcon {
-    width: 40px;
-    height: 41.266px;
-}
-
-.sequelizeIcon {
-    width: 96px;
-    height: 40.078px;
-}
-
-.iconLabel {
-    font-size: 20px;
-    font-family: Raleway;
-    font-weight: bold;
-    color: #696055;
-}
-
-ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-    li {
-    list-style-type: none;
-    padding: 0px 10px;
-    }
-}
 .aboutPage {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 100px;
+    width: 100vw;
+    height: 140vh;
+    
+    h1 {
+        margin-bottom: 0;
+    }
 }
 
 .aboutContainer {
     background-image: url("./pages/images/screen.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
     height: 100vh;    
     opacity: 0.75;
     display: flex;
@@ -424,10 +379,8 @@ ul {
 }
 
 .aboutContent {
-    width: 438.906px;
-    height: 270px;
-    padding-top: 339.040px;
-    padding-right: 32vw;
+    padding-top: 31vh;
+    padding-right: 33vw;
     padding-left: 37.5vw;
     
     h3, h4, p, #synonyms {
@@ -451,9 +404,6 @@ h4 {
 }
 
 .skillsContainer {
-    width: 100vw;
-    height: 25vh;
-
     h1 {
         margin-top: 40px;
         margin-bottom: 20px;
@@ -462,6 +412,34 @@ h4 {
         margin-right: 35vw;
         border-bottom: 1px solid black;
         padding: 0 0 4px;
+    }
+}
+
+.icon, .psqlIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.sequelizeIcon {
+    width: 96px;
+    height: 40.078px;
+}
+
+.iconLabel {
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: #696055;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+    li {
+        list-style-type: none;
+        padding: 0px 10px;
     }
 }
 
@@ -474,15 +452,230 @@ h4 {
     grid-row-gap: 50px;
 }
 
+@media screen and (max-width: 2900px) {
+    .aboutPage {
+        height: 145vh;
+        
+        h1 {
+            padding-top: 4vh;
+            padding-left: 5vw;
+            font-size: 55px;
+        }
+    }
+
+    .aboutContainer {
+        background-image: url("./pages/images/screen1280.jpg");
+        height: 100vh;
+    }
+    
+    .aboutContent {
+        padding-top: 24vh;
+        padding-right: 38vw;
+        padding-left: 41vw;
+        
+        h3 {
+            font-size: 42px;
+        }
+
+        h4 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .skillsContainer {
+        h1 {
+            padding-top: 0;
+            padding-left: 0;
+        }
+    }
+
+    .icon, .psqlIcon {
+        width: 90px;
+        height: 90px;
+        padding-top: 2vh;
+    }
+    
+    .sequelizeIcon {
+        width: 225px;
+        height: 90px;
+        padding-top: 2vh;
+    }
+    
+    .iconLabel {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .aboutContent {
+        padding-top: 26vh;
+        padding-right: 36vw;
+        padding-left: 40vw;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .aboutPage {
+        height: 185vh;
+
+        h1 {
+            padding-top: 3vh;
+            font-size: 40px;
+        }
+    }
+
+    .aboutContainer {
+        height: 135vh;
+    }
+    
+    .aboutContent {
+        padding-top: 35vh;
+        padding-right: 33vw;
+        padding-left: 37.5vw;
+        
+        h3 {
+            font-size: 35px;
+        }
+
+        h4 {
+            font-size: 27px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .icon, .psqlIcon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .sequelizeIcon {
+        width: 160px;
+        height: 70px;
+    }
+    
+    .iconLabel {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .aboutPage {
+        height: 150vh;
+    }
+    
+    .aboutContainer {
+        background-image: url("./pages/images/screen.jpg");
+        height: 100vh;    
+    }
+    
+    .aboutContent {
+        padding-top: 31vh;
+        padding-right: 33vw;
+        padding-left: 37.5vw;
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+    
+    h4 {
+        font-size: 20px;
+    }   
+    
+    .skillsContainer {    
+        h1 {
+            padding: 0 0 4px;
+        }
+    }
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .psqlIcon {
+        width: 40px;
+        height: 41.266px;
+    }
+    
+    .sequelizeIcon {
+        width: 96px;
+        height: 40.078px;
+    }
+    
+    .iconLabel {
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: bold;
+        color: #696055;
+    }
+    
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    
+        li {
+        list-style-type: none;
+        padding: 0px 10px;
+        }
+    }
+    
+    .techIcons {
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .aboutContent {
+        padding-top: 33vh;
+        padding-right: 32vw;
+        padding-left: 36.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutContent {
+        padding-right: 29vw;
+        padding-left: 34.5vw;
+    }
+}
+
 @media screen and (max-width: 1024px) {
+    .aboutPage {
+        height: 130vh;
+    }
+    
     .aboutPage h1 {
         margin-bottom: 0;
     }
 
+    .aboutContainer {
+        height: 85vh;
+    }
+
     .aboutContent {
-        width: 438.906px;
-        height: 270px;
-        padding-top: 339.040px;
+        padding-top: 28vh;
         padding-right: 26vw;
         padding-left: 31.5vw;
     }
@@ -498,26 +691,22 @@ h4 {
     .aboutPage {
         margin-top: 90px;
         margin-bottom: 50px;
+        height: 160vh;
     }
 
     .aboutPage h1 {
-        margin-bottom: 1.5vh;
+        margin-bottom: 2.5vh;
+        font-size: 30px;
     }
 
     .aboutContainer {
-        height: 100vh;
+        height: 110vh;
     }
 
     .aboutContent {
-        width: 438.906px;
-        height: 270px;
-        padding-top: 339.040px;
+        padding-top: 36vh;
         padding-right: 19vw;
         padding-left: 25.5vw;
-    }
-
-    .skillsContainer {
-        height: 350px;
     }
 }
 
@@ -525,40 +714,33 @@ h4 {
     .aboutPage {
         margin-top: 70px;
         margin-bottom: 50px;
-        height: 100%;
+        height: 145vh;
         width: 90vw;
         margin-left: 5vw;
     }
 
     .aboutPage h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
         padding-left: 0;
         text-align: center;
+        margin: 0;
     }
 
     .aboutContainer {
         background-image: none;
         background-color: #F2F2F2;
         width: 90vw;
-        height: 280px;
+        height: 40vh;
         align-content: flex-start;
     }
 
     .aboutContent {
-        width: 90vw;
-        height: 100%;
         padding: 10px;
     }
 
     h3 {
         margin-top: 0;
-    }
-
-    .skillsContainer {
-        width: 90vw;
-        height: 540px;
-        margin-bottom: 50px;
     }
 
     .skillsContainer h1 {
@@ -581,35 +763,42 @@ h4 {
     }
 
     .aboutContainer {
-        height: 340px;
-    }
-
-    .skillsContainer {
-        height: 550px;
+        height: 46vh;
     }
 
     .skillsContainer h1 {
-        padding-top: 20px;
+        padding-top: 4vh;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .aboutContainer {
-        height: 320px;
+    .aboutPage {
+        height: 160vh;
     }
+    
+    .aboutContainer {
+        height: 50vh;
+    }
+}
 
-    .dish, .brewser, .whenInRoam, .concentration {
-        height: auto;
+@media screen and (max-width: 360px) {
+    .aboutPage {
+        height: 170vh;
+    }
+    
+    .aboutContainer {
+        height: 60vh;
     }
 }
 
 @media screen and (max-width: 320px) {
     .aboutPage {
         margin-left: 6vw;
+        height: 185vh;
     }
 
     .aboutContainer {
-        height: 375px;
+        height: 67vh;
     }
 }
 
@@ -1000,10 +1189,12 @@ h4 {
     
     .dishd, .brewser {
         width: 86vw;
+        height: auto;
     }
     
     .concentration {
         width: 86.75vw;
+        height: auto;
     }
     
     .p3details {
