@@ -511,12 +511,16 @@ ul {
 }
 
 @media screen and (max-width: 2560px) {
+    .aboutPage {
+        height: 200vh;
+    }
+
     .aboutContainer {
         height: 135vh;
     }
     
     .aboutContent {
-        padding-top: 35vh;
+        padding-top: 40vh;
         padding-right: 36vw;
         padding-left: 40vw;
     }
@@ -660,7 +664,7 @@ ul {
     }
 
     .aboutContent {
-        padding-top: 45vh;
+        padding-top: 42vh;
         padding-right: 33vw;
         padding-left: 37vw;
     }
