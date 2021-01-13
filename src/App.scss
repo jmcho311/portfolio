@@ -43,7 +43,6 @@ h5 {
 }
 
 p {
-    font-size: 16px;
     text-align: left;
     margin-top: 10px;
     font-family: Raleway;
@@ -1094,6 +1093,7 @@ ul {
 
 .dishd {
     width: 55vw;
+    height: auto;
 }
 
 .project4 {
@@ -1116,6 +1116,7 @@ ul {
 
 .brewser {
     width: 60vw;
+    height: auto;
 }
 
 .project3 {
@@ -1139,7 +1140,7 @@ ul {
 
 .whenInRoam {
     width: 50vw;
-    height: 400px;
+    height: auto;
     padding-top: 5vh;
 }
 
@@ -1164,6 +1165,7 @@ ul {
 
 .concentration {
     width: 40vw;
+    height: auto;
 }
 
 .project1 {
@@ -1181,6 +1183,910 @@ ul {
     margin-top: 10vh;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+@media screen and (max-width: 5120px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .projectsPage {
+        margin-top: 250px;
+        margin-bottom: 350px;
+
+        h1 {
+            font-size: 70px;
+            padding-left: 140px;
+        }
+
+        h3 {
+            font-size: 60px;
+        }
+
+        h5 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 48px;
+        }
+    }
+    
+    .projectLink {
+        font-size: 90px;
+        color: #696055;
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: white;
+            transform: scale(1.5);
+            }
+    }
+    
+    .dishd {
+        width: 55vw;
+        height: auto;
+    }
+    
+    .project4 {
+        background-color: #DDCCBE;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+        padding-left: 4vw;
+        margin: 120px;
+    }
+    
+    .p4details {
+        background-color: #F3ECE9;
+        width: 23vw;
+        height: 23vh;
+        margin-top: 6vh;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .brewser {
+        width: 60vw;
+        height: auto;
+    }
+    
+    .project3 {
+        background-color: #F2EEEB;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        padding-top: 6vh;
+        padding-right: 5vw;
+        padding-bottom: 3vh;
+    }
+    
+    .p3details {
+        background-color: #D9D9D9;
+        width: 20vw;
+        height: 27vh;
+        margin-top: 15vh;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .whenInRoam {
+        width: 50vw;
+        height: auto;
+        padding-top: 5vh;
+    }
+    
+    .project2 {
+        background-color: #858585;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        width: 80vw;
+        margin: 120px;
+        padding-top: 5vh;
+        padding-bottom: 8vh;
+        padding-left: 3vw;
+    }
+    
+    .p2details {
+        background-color: #F3ECE9;
+        width: 15vw;
+        height: 26vh;
+        margin-top: 1vh;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    .concentration {
+        width: 40vw;
+        height: auto;
+    }
+    
+    .project1 {
+        background-color: #BFA48C;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        padding-top: 4vh;
+        padding-right: 8vw;
+        padding-bottom: 4vh;
+    }
+    
+    .p1details {
+        background-color: #F2F2F2;
+        width: 25vw;
+        height: 24vh;
+        margin-top: 20vh;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 4096px) {         //++++++++++++++++++++++++++++++++++++++++++
+    // .projectsPage {
+    //     margin-top: 250px;
+    //     margin-bottom: 350px;
+
+    //     h1 {
+    //         font-size: 70px;
+    //         padding-left: 140px;
+    //     }
+
+    //     h3 {
+    //         font-size: 60px;
+    //     }
+
+    //     h5 {
+    //         font-size: 50px;
+    //     }
+
+    //     p {
+    //         font-size: 48px;
+    //     }
+    // }
+    
+    // .projectLink {
+    //     font-size: 90px;
+    //     color: #696055;
+    //     transition: color 0.3s ease;
+        
+    //     &:hover {
+    //         color: white;
+    //         transform: scale(1.5);
+    //         }
+    // }
+    
+    // .dishd {
+    //     width: 55vw;
+    //     height: auto;
+    // }
+    
+    // .project4 {
+    //     background-color: #DDCCBE;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-start;
+    //     padding-top: 4vh;
+    //     padding-bottom: 4vh;
+    //     padding-left: 4vw;
+    //     margin: 120px;
+    // }
+    
+    .p4details {
+        // background-color: #F3ECE9;
+        // width: 23vw;
+        height: 34vh;
+        // margin-top: 6vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+    
+    // .brewser {
+    //     width: 60vw;
+    //     height: auto;
+    // }
+    
+    // .project3 {
+    //     background-color: #F2EEEB;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding-top: 6vh;
+    //     padding-right: 5vw;
+    //     padding-bottom: 3vh;
+    // }
+    
+    .p3details {
+        // background-color: #D9D9D9;
+        // width: 20vw;
+        height: 36vh;
+        // margin-top: 15vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+    
+    // .whenInRoam {
+    //     width: 50vw;
+    //     height: auto;
+    //     padding-top: 5vh;
+    // }
+    
+    // .project2 {
+        // background-color: #858585;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-start;
+        // width: 80vw;
+        // margin: 120px;
+        // padding-top: 5vh;
+        // padding-bottom: 8vh;
+        // padding-left: 3vw;
+    // }
+    
+    .p2details {
+        // background-color: #F3ECE9;
+        // width: 15vw;
+        height: 38vh;
+        // margin-top: 1vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+    
+    // .concentration {
+    //     width: 40vw;
+    //     height: auto;
+    // }
+    
+    // .project1 {
+    //     background-color: #BFA48C;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding-top: 4vh;
+    //     padding-right: 8vw;
+    //     padding-bottom: 4vh;
+    // }
+    
+    .p1details {
+        // background-color: #F2F2F2;
+        // width: 25vw;
+        height: 29vh;
+        // margin-top: 20vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 3840px) {         //++++++++++++++++++++++++++++++++++++++++++
+    // .projectsPage {
+    //     margin-top: 250px;
+    //     margin-bottom: 350px;
+
+    //     h1 {
+    //         font-size: 70px;
+    //         padding-left: 140px;
+    //     }
+
+    //     h3 {
+    //         font-size: 60px;
+    //     }
+
+    //     h5 {
+    //         font-size: 50px;
+    //     }
+
+    //     p {
+    //         font-size: 48px;
+    //     }
+    // }
+    
+    // .projectLink {
+    //     font-size: 90px;
+    //     color: #696055;
+    //     transition: color 0.3s ease;
+        
+    //     &:hover {
+    //         color: white;
+    //         transform: scale(1.5);
+    //         }
+    // }
+    
+    // .dishd {
+    //     width: 55vw;
+    //     height: auto;
+    // }
+    
+    // .project4 {
+    //     background-color: #DDCCBE;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-start;
+    //     padding-top: 4vh;
+    //     padding-bottom: 4vh;
+    //     padding-left: 4vw;
+    //     margin: 120px;
+    // }
+    
+    .p4details {
+        // background-color: #F3ECE9;
+        // width: 23vw;
+        height: 35vh;
+        // margin-top: 6vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+    
+    // .brewser {
+        // width: 60vw;
+        // height: auto;
+    // }
+    
+    // .project3 {
+    //     background-color: #F2EEEB;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding-top: 6vh;
+    //     padding-right: 5vw;
+    //     padding-bottom: 3vh;
+    // }
+    
+    .p3details {
+        // background-color: #D9D9D9;
+        // width: 20vw;
+        height: 44vh;
+        // margin-top: 15vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+    
+    // .whenInRoam {
+    //     width: 50vw;
+    //     height: auto;
+    //     padding-top: 5vh;
+    // }
+    
+    // .project2 {
+    //     background-color: #858585;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-start;
+    //     width: 80vw;
+    //     margin: 120px;
+    //     padding-top: 5vh;
+    //     padding-bottom: 8vh;
+    //     padding-left: 3vw;
+    // }
+    
+    .p2details {
+        // background-color: #F3ECE9;
+        // width: 15vw;
+        height: 40vh;
+        // margin-top: 1vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+    
+    // .concentration {
+        // width: 40vw;
+        // height: auto;
+    // }
+    
+    // .project1 {
+        // background-color: #BFA48C;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-end;
+        // padding-top: 4vh;
+        // padding-right: 8vw;
+        // padding-bottom: 4vh;
+    // }
+    
+    .p1details {
+        // background-color: #F2F2F2;
+        // width: 25vw;
+        height: 33vh;
+        // margin-top: 20vh;
+        // padding-left: 60px;
+        // padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 3000px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .projectsPage {
+        margin-top: 170px;
+        margin-bottom: 170px;
+
+        h1 {
+            font-size: 50px;
+            // padding-left: 140px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        h5 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 28px;
+        }
+    }
+    
+    .projectLink {
+        font-size: 60px;
+        // color: #696055;
+        // transition: color 0.3s ease;
+        
+        // &:hover {
+            // color: white;
+            // transform: scale(1.5);
+            // }
+    }
+    
+    // .dishd {
+        // width: 55vw;
+        // height: auto;
+    // }
+    
+    .project4 {
+        // background-color: #DDCCBE;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-start;
+        padding: 40px 90px 80px 50px;
+        margin: 40px;
+    }
+    
+    .p4details {
+        // background-color: #F3ECE9;
+        // width: 23vw;
+        height: 23vh;
+        // margin-top: 6vh;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    // .brewser {
+        // width: 60vw;
+        // height: auto;
+    // }
+    
+    .project3 {
+        // background-color: #F2EEEB;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-end;
+        padding-top: 40px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+    }
+    
+    .p3details {
+        // background-color: #D9D9D9;
+        // width: 20vw;
+        height: 27vh;
+        // margin-top: 15vh;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    // .whenInRoam {
+        // width: 50vw;
+        // height: auto;
+        // padding-top: 5vh;
+    // }
+    
+    .project2 {
+        // background-color: #858585;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-start;
+        padding: 60px 90px 40px 50px;
+        // width: 80vw;
+        margin: 40px;
+    }
+    
+    .p2details {
+        // background-color: #F3ECE9;
+        // width: 15vw;
+        height: 26vh;
+        // margin-top: 1vh;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    // .concentration {
+        // width: 40vw;
+        // height: auto;
+    // }
+    
+    .project1 {
+        // background-color: #BFA48C;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-end;
+        padding: 50px 90px 50px 50px;
+    }
+    
+    .p1details {
+        // background-color: #F2F2F2;
+        // width: 25vw;
+        height: 24vh;
+        // margin-top: 20vh;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 2560px) {         //++++++++++++++++++++++++++++++++++++++++++
+    // .projectsPage {
+    //     margin-top: 170px;
+    //     margin-bottom: 170px;
+
+    //     h1 {
+    //         font-size: 50px;
+    //         padding-left: 140px;
+    //     }
+
+    //     h3 {
+    //         font-size: 40px;
+    //     }
+
+    //     h5 {
+    //         font-size: 30px;
+    //     }
+
+    //     p {
+    //         font-size: 28px;
+    //     }
+    // }
+    
+    // .projectLink {
+    //     font-size: 60px;
+    //     color: #696055;
+    //     transition: color 0.3s ease;
+        
+    //     &:hover {
+    //         color: white;
+    //         transform: scale(1.5);
+    //         }
+    // }
+    
+    // .dishd {
+    //     width: 55vw;
+    //     height: auto;
+    // }
+    
+    // .project4 {
+    //     background-color: #DDCCBE;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-start;
+    //     padding: 40px 90px 80px 50px;
+    //     margin: 40px;
+    // }
+    
+    .p4details {
+        // background-color: #F3ECE9;
+        // width: 23vw;
+        height: 34vh;
+        // margin-top: 6vh;
+        // padding-left: 30px;
+        // padding-right: 30px;
+    }
+    
+    // .brewser {
+        // width: 60vw;
+        // height: auto;
+    // }
+    
+    // .project3 {
+    //     background-color: #F2EEEB;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding-top: 40px;
+    //     padding-right: 80px;
+    //     padding-bottom: 40px;
+    // }
+    
+    .p3details {
+        // background-color: #D9D9D9;
+        // width: 20vw;
+        height: 35vh;
+        // margin-top: 15vh;
+        // padding-left: 30px;
+        // padding-right: 30px;
+    }
+    
+    // .whenInRoam {
+    //     width: 50vw;
+    //     height: auto;
+    //     padding-top: 5vh;
+    // }
+    
+    // .project2 {
+        // background-color: #858585;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-start;
+        // padding: 60px 90px 40px 50px;
+        // width: 80vw;
+        // margin: 40px;
+    // }
+    
+    .p2details {
+        // background-color: #F3ECE9;
+        // width: 15vw;
+        height: 35vh;
+        // margin-top: 1vh;
+        // padding-left: 30px;
+        // padding-right: 30px;
+    }
+    
+    // .concentration {
+        // width: 40vw;
+        // height: auto;
+    // }
+    
+    // .project1 {
+        // background-color: #BFA48C;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-end;
+        // padding: 50px 90px 50px 50px;
+    // }
+    
+    .p1details {
+        // background-color: #F2F2F2;
+        // width: 25vw;
+        height: 29vh;
+        // margin-top: 20vh;
+        // padding-left: 30px;
+        // padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1921px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .projectsPage {
+        margin-top: 120px;
+        margin-bottom: 120px;
+
+        h1 {
+            font-size: 36px;
+            padding-left: 90px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+    
+    .projectLink {
+        font-size: 30px;
+        // color: #696055;
+        // transition: color 0.3s ease;
+        
+        // &:hover {
+            // color: white;
+            // transform: scale(1.5);
+            // }
+    }
+    
+    // .dishd {
+        // width: 55vw;
+        // height: auto;
+    // }
+    
+    // .project4 {
+        // background-color: #DDCCBE;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-start;
+        // padding: 40px 90px 80px 50px;
+        // margin: 40px;
+    // }
+    
+    .p4details {
+        // background-color: #F3ECE9;
+        width: 300px;
+        height: 310px;
+        // margin-top: 6vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    // .brewser {
+        // width: 60vw;
+        // height: auto;
+    // }
+    
+    // .project3 {
+    //     background-color: #F2EEEB;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding-top: 40px;
+    //     padding-right: 80px;
+    //     padding-bottom: 40px;
+    // }
+    
+    .p3details {
+        // background-color: #D9D9D9;
+        width: 260px;
+        height: 350px;
+        // margin-top: 15vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    // .whenInRoam {
+    //     width: 50vw;
+    //     height: auto;
+    //     padding-top: 5vh;
+    // }
+    
+    // .project2 {
+        // background-color: #858585;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-start;
+        // padding: 60px 90px 40px 50px;
+        // width: 80vw;
+        // margin: 40px;
+    // }
+    
+    .p2details {
+        // background-color: #F3ECE9;
+        width: 280px;
+        height: 285px;
+        margin-top: -2vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    // .concentration {
+        // width: 40vw;
+        // height: auto;
+    // }
+    
+    // .project1 {
+        // background-color: #BFA48C;
+        // display: flex;
+        // flex-flow: row wrap;
+        // justify-content: flex-end;
+        // padding: 50px 90px 50px 50px;
+    // }
+    
+    .p1details {
+        // background-color: #F2F2F2;
+        width: 350px;
+        height: 265px;
+        margin-top: 10vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1440px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .projectsPage {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    
+    // .projectLink {
+    //     font-size: 30px;
+    //     color: #696055;
+    //     transition: color 0.3s ease;
+        
+    //     &:hover {
+    //         color: white;
+    //         transform: scale(1.5);
+    //         }
+    // }
+    
+    // .dishd {
+    //     width: 55vw;
+    //     height: auto;
+    // }
+    
+    // .project4 {
+    //     background-color: #DDCCBE;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-start;
+    //     padding: 40px 90px 80px 50px;
+    //     margin: 40px;
+    // }
+    
+    // .p4details {
+    //     background-color: #F3ECE9;
+    //     width: 300px;
+    //     height: 310px;
+    //     margin-top: 6vh;
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+    
+    // .brewser {
+    //     width: 60vw;
+    //     height: auto;
+    // }
+    
+    // .project3 {
+    //     background-color: #F2EEEB;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding-top: 40px;
+    //     padding-right: 80px;
+    //     padding-bottom: 40px;
+    // }
+    
+    // .p3details {
+    //     background-color: #D9D9D9;
+    //     width: 260px;
+    //     height: 350px;
+    //     margin-top: 15vh;
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+    
+    // .whenInRoam {
+    //     width: 50vw;
+    //     height: auto;
+    //     padding-top: 5vh;
+    // }
+    
+    // .project2 {
+    //     background-color: #858585;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-start;
+    //     padding: 60px 90px 40px 50px;
+    //     width: 80vw;
+    //     margin: 40px;
+    // }
+    
+    // .p2details {
+    //     background-color: #F3ECE9;
+    //     width: 280px;
+    //     height: 285px;
+    //     margin-top: -2vh;
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
+    
+    // .concentration {
+    //     width: 40vw;
+    //     height: auto;
+    // }
+    
+    // .project1 {
+    //     background-color: #BFA48C;
+    //     display: flex;
+    //     flex-flow: row wrap;
+    //     justify-content: flex-end;
+    //     padding: 50px 90px 50px 50px;
+    // }
+    
+    // .p1details {
+    //     background-color: #F2F2F2;
+    //     width: 350px;
+    //     height: 265px;
+    //     margin-top: 10vh;
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
 }
 
 @media screen and (max-width: 1024px) {         //++++++++++++++++++++++++++++++++++++++++++
@@ -1235,7 +2141,7 @@ ul {
 
     .whenInRoam {
         width: 70vw;
-        height: auto;
+        // height: auto;
         padding-top: 3vh;
         margin-left: 4vw;
     }
@@ -1265,90 +2171,90 @@ ul {
 }
 
 @media screen and (max-width: 768px) {          //++++++++++++++++++++++++++++++++++++++++++
-    .projectsPage {
-        margin-top: 90px;
-    }
+    // .projectsPage {
+    //     margin-top: 90px;
+    // }
 
-    .project4, .project1 {
-        margin: 20px 0 20px 0;
-        padding: 0;
-    }
+    // .project4, .project1 {
+    //     margin: 20px 0 20px 0;
+    //     padding: 0;
+    // }
 
-    .project3, .project2 {
-        margin: 20px;
-        padding: 0;
-    }
+    // .project3, .project2 {
+    //     margin: 20px;
+    //     padding: 0;
+    // }
 
-    .dishd {
-        width: 60vw;
-        margin-left: 5vw;
-        margin-top: 3vh;
-    }
+    // .dishd {
+    //     width: 60vw;
+    //     margin-left: 5vw;
+    //     margin-top: 3vh;
+    // }
 
     .p4details {
-        width: 36vw;
-        height: 26vh;
-        margin-top: 0;
-        margin-left: 48vw;
-        margin-bottom: 3vh;
-        padding-left: 15px;
-        padding-right: 15px;
+        // width: 36vw;
+        height: 30vh;
+        // margin-top: 0;
+        // margin-left: 48vw;
+        // margin-bottom: 3vh;
+        // padding-left: 15px;
+        // padding-right: 15px;
     }
 
     .p3details {
-        width: 325px;
-        height: 270px;
-        margin-top: 3vh;
-        margin-right: 5vw;
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 40vw;
+        height: 30vh;
+        // margin-top: 3vh;
+        // margin-right: 5vw;
+        // padding-left: 15px;
+        // padding-right: 15px;
     }
 
-    .brewser {
-        width: 65vw;
-        margin-right: 20vw;
-        margin-bottom: 3vh;
-    }
+    // .brewser {
+        // width: 65vw;
+        // margin-right: 20vw;
+        // margin-bottom: 3vh;
+    // }
 
-    .project2 {
-        width: 94.5vw;
-    }
+    // .project2 {
+        // width: 94.5vw;
+    // }
 
-    .whenInRoam {
-        width: 70vw;
-        height: auto;
-        padding-top: 3vh;
-        margin-left: 4vw;
-    }
+    // .whenInRoam {
+        // width: 70vw;
+        // height: auto;
+        // padding-top: 3vh;
+        // margin-left: 4vw;
+    // }
 
     .p2details {
-        width: 280px;
-        height: 245px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-top: 0;
-        margin-bottom: 3vh;
+        width: 35vw;
+        height: 28vh;
+        // padding-left: 15px;
+        // padding-right: 15px;
+        // margin-top: 0;
+        // margin-bottom: 3vh;
         margin-left: 45vw;
     }
 
     .p1details {
-        width: 35vw;
-        height: 245px;
-        margin-top: 9vh;
-        padding-left: 15px;
-        padding-right: 15px;
+        // width: 35vw;
+        height: 28vh;
+        // margin-top: 9vh;
+        // padding-left: 15px;
+        // padding-right: 15px;
     }
 
-    .concentration {
-        width: 40vw;
-        margin: 3vh 5vw 3vh 0;
-    }
+    // .concentration {
+        // width: 40vw;
+        // margin: 3vh 5vw 3vh 0;
+    // }
 }
 
 @media screen and (max-width: 540px) {          //++++++++++++++++++++++++++++++++++++++++++
     .projectsPage {
         width: 100%;
-        margin-top: 90px;
+        // margin-top: 90px;
         margin-bottom: 80px
     }
 
@@ -1462,12 +2368,12 @@ ul {
     
     .dishd, .brewser {
         width: 86vw;
-        height: auto;
+        // height: auto;
     }
     
     .concentration {
         width: 86.75vw;
-        height: auto;
+        // height: auto;
     }
     
     .p3details {
