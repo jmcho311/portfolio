@@ -85,7 +85,7 @@ p {
     font-weight: bold;
 }
 
-@media screen and (max-width: 2900px) {
+@media screen and (max-width: 2900px) {         //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb1920.jpg");
         background-repeat: no-repeat;
@@ -126,7 +126,7 @@ p {
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {         //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb.jpg");
         background-repeat: no-repeat;
@@ -167,7 +167,7 @@ p {
     }
 }
 
-@media screen and (max-width: 1540px) {
+@media screen and (max-width: 1540px) {         //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb.jpg");
         background-repeat: no-repeat;
@@ -212,7 +212,7 @@ p {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {         //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         width: 100vw;
         height: 85vh;
@@ -220,7 +220,7 @@ p {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb685.jpg");
         margin-top: 115px;
@@ -249,7 +249,7 @@ p {
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb365.jpg");
         margin-top: 100px;
@@ -276,7 +276,7 @@ p {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         margin-top: 70px;
         width: 90vw;
@@ -292,7 +292,7 @@ p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb260.jpg");
         width: 69vw;
@@ -318,7 +318,7 @@ p {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         width: 72vw;
         height: 120vh;
@@ -330,7 +330,7 @@ p {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         width: 90vw;
         height: 130vh;
@@ -342,7 +342,7 @@ p {
     }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 280px) {          //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         width: 90vw;
         height: 115vh;
@@ -452,9 +452,187 @@ ul {
     grid-row-gap: 50px;
 }
 
-@media screen and (max-width: 2900px) {
+@media screen and (max-width: 5120px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
-        height: 185vh;
+        margin-top: 125px;
+        height: 150vh;
+        
+        h1 {
+            padding-top: 4vh;
+            padding-left: 5vw;
+            font-size: 65px;
+        }
+    }
+
+    .aboutContainer {
+        background-image: url("./pages/images/screen1920.jpg");
+        height: 105vh;
+    }
+    
+    .aboutContent {
+        padding-top: 28vh;
+        padding-right: 41vw;
+        padding-left: 42.5vw;
+        
+        h3 {
+            font-size: 60px;
+        }
+
+        h4 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+    }
+
+    .skillsContainer {
+        h1 {
+            padding-top: 0;
+            padding-left: 0;
+        }
+    }
+
+    .icon, .psqlIcon {
+        width: 120px;
+        height: 120px;
+        padding-top: 2vh;
+    }
+    
+    .sequelizeIcon {
+        width: 285px;
+        height: 120px;
+        padding-top: 2vh;
+    }
+    
+    .iconLabel {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 4096px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .aboutPage {
+        margin-top: 125px;
+        height: 195vh;
+        
+        h1 {
+            padding-top: 4vh;
+            padding-left: 5vw;
+            font-size: 65px;
+        }
+    }
+
+    .aboutContainer {
+        background-image: url("./pages/images/screen1920.jpg");
+        height: 140vh;
+    }
+    
+    .aboutContent {
+        padding-top: 34vh;
+        padding-right: 38vw;
+        padding-left: 41vw;
+        
+        h3 {
+            font-size: 60px;
+        }
+
+        h4 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+    }
+
+    .skillsContainer {
+        h1 {
+            padding-top: 0;
+            padding-left: 0;
+        }
+    }
+
+    .icon, .psqlIcon {
+        width: 120px;
+        height: 120px;
+        padding-top: 2vh;
+    }
+    
+    .sequelizeIcon {
+        width: 285px;
+        height: 120px;
+        padding-top: 2vh;
+    }
+    
+    .iconLabel {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 3840px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .aboutPage {
+        margin-top: 125px;
+        height: 195vh;
+        
+        h1 {
+            padding-top: 4vh;
+            padding-left: 5vw;
+            font-size: 65px;
+        }
+    }
+
+    .aboutContainer {
+        background-image: url("./pages/images/screen1920.jpg");
+        height: 140vh;
+    }
+    
+    .aboutContent {
+        padding-top: 36vh;
+        padding-right: 38vw;
+        padding-left: 40vw;
+        
+        h3 {
+            font-size: 60px;
+        }
+
+        h4 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+    }
+
+    .skillsContainer {
+        h1 {
+            padding-top: 0;
+            padding-left: 0;
+        }
+    }
+
+    .icon, .psqlIcon {
+        width: 120px;
+        height: 120px;
+        padding-top: 2vh;
+    }
+    
+    .sequelizeIcon {
+        width: 285px;
+        height: 120px;
+        padding-top: 2vh;
+    }
+    
+    .iconLabel {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 3000px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .aboutPage {
+        margin-top: 125px;
+        height: 155vh;
         
         h1 {
             padding-top: 4vh;
@@ -465,11 +643,11 @@ ul {
 
     .aboutContainer {
         background-image: url("./pages/images/screen1280.jpg");
-        height: 130vh;
+        height: 105vh;
     }
     
     .aboutContent {
-        padding-top: 33vh;
+        padding-top: 26vh;
         padding-right: 38vw;
         padding-left: 41vw;
         
@@ -510,25 +688,42 @@ ul {
     }
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 2880px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .aboutPage {
+        height: 185vh;
+    }
+
+    .aboutContainer {
+        height: 130vh;
+    }
+    
+    .aboutContent {
+        padding-top: 29vh;
+        padding-right: 38vw;
+        padding-left: 41vw;
+    }
+}
+
+@media screen and (max-width: 2560px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         height: 200vh;
     }
 
     .aboutContainer {
-        height: 135vh;
+        height: 145vh;
     }
     
     .aboutContent {
-        padding-top: 40vh;
+        padding-top: 35vh;
         padding-right: 36vw;
         padding-left: 40vw;
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1921px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
-        height: 225vh;
+        height: 250vh;
+        margin-top: 125px;
 
         h1 {
             padding-top: 3vh;
@@ -537,7 +732,7 @@ ul {
     }
 
     .aboutContainer {
-        height: 170vh;
+        height: 185vh;
     }
     
     .aboutContent {
@@ -573,7 +768,23 @@ ul {
     }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1680px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .aboutPage {
+        height: 250vh;
+    }
+
+    .aboutContainer {
+        height: 190vh;
+    }
+    
+    .aboutContent {
+        padding-top: 46vh;
+        padding-right: 29vw;
+        padding-left: 34.5vw;
+    }
+}
+
+@media screen and (max-width: 1600px) {     //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         height: 185vh;
     }
@@ -654,119 +865,59 @@ ul {
     }
 }
 
-@media screen and (max-width: 1540px) {
+// @media screen and (max-width: 1540px) {         //++++++++++++++++++++++++++++++++++++++++++
+//     .aboutPage {
+//         height: 150vh;
+//     }
+    
+//     .aboutContainer {
+//         height: 100vh;    
+//     }
+    
+//     .aboutContent {
+//         padding-top: 31vh;
+//         padding-right: 33vw;
+//         padding-left: 37.5vw;
+//     }
+// }
+
+@media screen and (max-width: 1440px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
-        height: 150vh;
-    }
-    
-    .aboutContainer {
-        background-image: url("./pages/images/screen.jpg");
-        height: 100vh;    
-    }
-    
-    .aboutContent {
-        padding-top: 31vh;
-        padding-right: 33vw;
-        padding-left: 37.5vw;
-
-        h3 {
-            font-size: 24px;
-        }
-
-        h4 {
-            font-size: 20px;
-        }
-
-        p {
-            font-size: 16px;
-        }
-    }
-    
-    h4 {
-        font-size: 20px;
-    }   
-    
-    .skillsContainer {    
-        h1 {
-            padding: 0 0 4px;
-        }
-    }
-    
-    .icon {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .psqlIcon {
-        width: 40px;
-        height: 41.266px;
-    }
-    
-    .sequelizeIcon {
-        width: 96px;
-        height: 40.078px;
-    }
-    
-    .iconLabel {
-        font-size: 20px;
-        font-family: Raleway;
-        font-weight: bold;
-        color: #696055;
-    }
-    
-    ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-    
-        li {
-        list-style-type: none;
-        padding: 0px 10px;
-        }
-    }
-    
-    .techIcons {
-        margin-top: 35px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 50px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .aboutPage {
-        height: 220vh;
+        height: 185vh;
     }
 
     .aboutContainer {
-        height: 160vh;
+        height: 130vh;
     }
 
     .aboutContent {
-        padding-top: 46vh;
+        padding-top: 41vh;
         padding-right: 33vw;
         padding-left: 37vw;
     }
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1366px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutContent {
-        padding-top: 33vh;
+        padding-top: 46vh;
         padding-right: 32vw;
         padding-left: 36.5vw;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .aboutContainer {
+        height: 145vh;
+    }
+    
     .aboutContent {
-        padding-right: 29vw;
-        padding-left: 34.5vw;
+        padding-top: 46vh;
+        padding-right: 30vw;
+        padding-left: 36vw;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         height: 130vh;
     }
@@ -792,7 +943,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {          //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         margin-top: 90px;
         margin-bottom: 50px;
@@ -815,7 +966,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {          //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         margin-top: 70px;
         margin-bottom: 50px;
@@ -862,7 +1013,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {          //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage h1 {
         padding-top: 0;
     }
@@ -876,7 +1027,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {          //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         height: 160vh;
     }
@@ -886,7 +1037,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {          //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         height: 170vh;
     }
@@ -896,7 +1047,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {          //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
         margin-left: 6vw;
         height: 185vh;
@@ -1015,7 +1166,7 @@ ul {
     padding-right: 15px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {         //++++++++++++++++++++++++++++++++++++++++++
     .projectsPage {
         margin-top: 90px;
     }
@@ -1096,7 +1247,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {          //++++++++++++++++++++++++++++++++++++++++++
     .projectsPage {
         margin-top: 90px;
     }
@@ -1177,7 +1328,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {          //++++++++++++++++++++++++++++++++++++++++++
     .projectsPage {
         width: 100%;
         margin-top: 90px;
@@ -1249,7 +1400,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {          //++++++++++++++++++++++++++++++++++++++++++
     .projectsPage {
         margin-top: 70px;
     }
@@ -1287,7 +1438,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {          //++++++++++++++++++++++++++++++++++++++++++
     .project2 {
         margin: 15px 26.5px 15px 26.5px;
     }
@@ -1311,7 +1462,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {          //++++++++++++++++++++++++++++++++++++++++++
     .dishd, .brewser, .concentration {
         width: 86vw;
     }
@@ -1326,7 +1477,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {          //++++++++++++++++++++++++++++++++++++++++++
     .project2 {
         width: 82vw;
         margin: 15px 21px 15px 21px;
@@ -1357,7 +1508,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 280px) {          //++++++++++++++++++++++++++++++++++++++++++
     .project4, .project3, .project2, .project1 {
         margin: 15px;
         padding: 10px;
