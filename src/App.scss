@@ -85,16 +85,16 @@ p {
     font-weight: bold;
 }
 
-@media screen and (max-width: 2900px) {         //++++++++++++++++++++++++++++++++++++++++++
+@media screen and (max-width: 5120px) {         //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb1920.jpg");
         background-repeat: no-repeat;
         width: 90vw;
         height: 85vh;
         opacity: 0.75;
-        margin-top: 240px;
+        margin-top: 360px;
         margin-bottom: 100px;
-        margin-left: 5vw;
+        margin-left: 12vw;
     
         h1 {
             padding-left: 0;
@@ -116,7 +116,7 @@ p {
         display: flex;
         flex-flow: row wrap;
         align-content: center;
-        width: 34vw;
+        width: 16vw;
         padding: 1vh 2vw 2vh 3vw;
         opacity: 0.65;
     }
@@ -126,7 +126,24 @@ p {
     }
 }
 
-@media screen and (max-width: 1920px) {         //++++++++++++++++++++++++++++++++++++++++++
+@media screen and (max-width: 4096px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .container {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 3000px) {         //++++++++++++++++++++++++++++++++++++++++++
+    .homePage {
+        margin-top: 240px;
+        margin-left: 5vw;
+    }
+    
+    .container {
+        width: 34vw;
+    }
+}
+
+@media screen and (max-width: 1921px) {         //++++++++++++++++++++++++++++++++++++++++++
     .homePage {
         background-image: url("./pages/images/lightbulb.jpg");
         background-repeat: no-repeat;
