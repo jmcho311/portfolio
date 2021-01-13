@@ -2256,11 +2256,24 @@ ul {
         width: 100%;
         // margin-top: 90px;
         margin-bottom: 80px
-    }
 
-    .projectsPage h1 {
-        padding: 0;
-        text-align: center;
+        h1 {
+            padding: 0;
+            text-align: center;
+        }
+
+        h3 {
+            padding-top: 5px;
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 14px;
+        }
     }
 
     .project4, .project3, .project1 {
@@ -2274,52 +2287,71 @@ ul {
         width: 90vw;
     }
     
-    .dishd, .brewser, .concentration {
+    .dishd {
         width: 90vw;
+        height: 50vh;
         margin: 0;
-    }
-    
-    .p4details, .p3details, .p2details, .p1details {
-        margin: 0;
-    }
-    .p4details {
-        width: 84.5vw;
-        height: 185px;
-    }
-    
-    .p4details h3, .p3details h3, .p2details h3, .p1details h3 {
-        padding-top: 5px;
-        font-size: 18px;
-    }
-    
-    .p4details h5, .p3details h5, .p2details h5, .p1details h5 {
-        font-size: 14px;
-    }
-    
-    .p4details p, .p3details p, .p2details p, .p1details p {
-        font-size: 14px;
-    }
-    
-    .p3details {
-        width: 84.5vw;
-        height: 170px;
     }
 
+    .brewser {
+        width: 90vw;
+        height: 55vh;
+        margin: 0;
+    }
+    
     .whenInRoam {
         width: 90vw;
-        height: auto;
+        height: 35vh;
         padding: 0;
         margin: 0;
     }
 
+    .concentration {
+        width: 90vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    // .p4details, .p3details, .p2details, .p1details {
+    //     margin: 0;
+    // }
+
+    .p4details {
+        width: 84.5vw;
+        height: 27vh;
+        margin: 0;
+    }
+    
+    // .p4details h3, .p3details h3, .p2details h3, .p1details h3 {
+    //     padding-top: 5px;
+    //     font-size: 18px;
+    // }
+    
+    // .p4details h5, .p3details h5, .p2details h5, .p1details h5 {
+    //     font-size: 14px;
+    // }
+    
+    // .p4details p, .p3details p, .p2details p, .p1details p {
+    //     font-size: 14px;
+    // }
+    
+    .p3details {
+        width: 84.5vw;
+        height: 27vh;
+        margin: 0;
+    }
+
+
     .p2details {
         width: 90vw;
-        height: 175px;
+        height: 25vh;
+        margin: 0;
     }
 
     .p1details {
         width: 84.5vw;
-        height: 170px;
+        height: 27vh;
+        margin: 0;
     }
 }
 
@@ -2333,31 +2365,43 @@ ul {
         width: 80vw;
     }
     
-    .dishd, .brewser, .concentration {
+    .dishd {
         width: 88vw;
-    }
-
-    .p4details {
-        width: 333px;
-        height: 210px;
+        height: 38vh;
     }
     
-    .p3details {
-        width: 333px;
-        height: 225px;
+    .brewser {
+        width: 88vw;
+        height: 45vh;
     }
 
     .whenInRoam {
         width: 80vw;
+        height: 30vh;
+    }
+
+    .concentration {
+        width: 88vw;
+        height: 85vh;
+    }
+
+    .p4details {
+        width: 81vw;
+        height: 30vh;
+    }
+    
+    .p3details {
+        width: 81vw;
+        height: 31vh;
     }
 
     .p2details {
-        width: 301px;
-        height: 210px;
+        width: 81vw;
+        height: 30vh;
     }
 
     .p1details {
-        height: 190px;
+        height: 27vh;
     }
 }
 
@@ -2381,26 +2425,45 @@ ul {
     }
     
     .p3details {
-        width: 292px;
+        width: 78vw;
     }
 
     .p2details, .p1details {
-        height: 210px;
+        height: 30vh;
     }
 }
 
 @media screen and (max-width: 360px) {          //++++++++++++++++++++++++++++++++++++++++++
-    .dishd, .brewser, .concentration {
+    .dishd {
         width: 86vw;
+        height: 35vh;
     }
     
+    .brewser {
+        width: 86vw;
+        height: 38vh;
+    }
+
+    .whenInRoam {
+        height: 25vh;
+    }
+
+    .concentration {
+        width: 86vw;
+        height: 75vh;
+    }
+
     .p4details {
-        height: 225px;
+        height: 35vh;
     }
     
     .p3details {
-        width: 280px;
-        height: 245px;
+        width: 80vw;
+        height: 38vh;
+    }
+
+    .p2details, .p1details {
+        height: 33vh;
     }
 }
 
@@ -2414,24 +2477,29 @@ ul {
         width: 84vw;
     }
 
-    .brewser, .concentration {
+    .brewser {
+        width: 84.5vw;
+    }
+    
+    .whenInRoam {
+        width: 82vw;
+        height: 28vh;
+    }
+
+    .concentration {
         width: 84.5vw;
     }
     
     .p4details {
-        height: 250px;
+        height: 42vh;
     }
     
     .p3details {
-        height: 285px;
-    }
-
-    .whenInRoam {
-        width: 82vw;
+        height: 46vh;
     }
 
     .p2details, .p1details {
-        height: 240px;
+        height: 40vh;
     }
 }
 
@@ -2441,7 +2509,22 @@ ul {
         padding: 10px;
     }
 
-    .dishd, .brewser, .concentration {
+    .dishd {
         width: 82vw;
+        height: 30vh;
+    }
+    
+    .brewser {
+        width: 82vw;
+        height: 33vh;
+    }
+
+    .whenInRoam {
+        height: 23vh;
+    }
+
+    .concentration {
+        width: 82vw;
+        height: 65vh;
     }
 }
