@@ -573,6 +573,87 @@ ul {
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .aboutPage {
+        height: 185vh;
+    }
+    
+    .aboutContainer {
+        background-image: url("./pages/images/screen.jpg");
+        height: 130vh;    
+    }
+    
+    .aboutContent {
+        padding-top: 42vh;
+        padding-right: 34vw;
+        padding-left: 39vw;
+
+        h3 {
+            font-size: 24px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+    
+    h4 {
+        font-size: 20px;
+    }   
+    
+    .skillsContainer {    
+        h1 {
+            padding: 0 0 4px;
+        }
+    }
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .psqlIcon {
+        width: 40px;
+        height: 41.266px;
+    }
+    
+    .sequelizeIcon {
+        width: 96px;
+        height: 40.078px;
+    }
+    
+    .iconLabel {
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: bold;
+        color: #696055;
+    }
+    
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    
+        li {
+        list-style-type: none;
+        padding: 0px 10px;
+        }
+    }
+    
+    .techIcons {
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 50px;
+    }
+}
+
 @media screen and (max-width: 1540px) {
     .aboutPage {
         height: 150vh;
@@ -656,15 +737,15 @@ ul {
 
 @media screen and (max-width: 1440px) {
     .aboutPage {
-        height: 200vh;
+        height: 220vh;
     }
 
     .aboutContainer {
-        height: 140vh;
+        height: 160vh;
     }
 
     .aboutContent {
-        padding-top: 44vh;
+        padding-top: 46vh;
         padding-right: 33vw;
         padding-left: 37vw;
     }
