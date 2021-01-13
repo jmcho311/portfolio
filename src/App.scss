@@ -883,11 +883,11 @@ ul {
 
 @media screen and (max-width: 1440px) {         //++++++++++++++++++++++++++++++++++++++++++
     .aboutPage {
-        height: 185vh;
+        height: 200vh;
     }
 
     .aboutContainer {
-        height: 130vh;
+        height: 140vh;
     }
 
     .aboutContent {
@@ -1749,12 +1749,17 @@ ul {
         height: 60vh;
     }
     
+    .p4details {
+        height: 35vh;
+    }
+
     .p3details {
         width: 78vw;
+        height: 35vh;
     }
 
     .p2details, .p1details {
-        height: 30vh;
+        height: 33vh;
     }
 }
 
